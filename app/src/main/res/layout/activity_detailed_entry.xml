@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ndf333.nathaniel.kotoba.DetailedEntryActivity"
+    android:theme="@style/AppTheme">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/DetailedTerm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="64dp"
+        android:textColor="@color/primaryColor"
+        android:textStyle="bold"
+        android:text="犬" />
+
+    <View style="@style/Divider"/>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="100dp"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_weight="1"
+                            android:text="Reading"
+                            android:layout_gravity="center_horizontal"/>
+
+                        <TextView
+                            android:id="@+id/DetailedReading"
+                            android:layout_width="wrap_content"
+                            android:layout_height="100dp"
+                            android:textSize="24sp"
+                            android:textAlignment="center"
+                            android:layout_weight="1"
+                            android:text="いぬ"
+                            android:layout_gravity="center_horizontal"/>
+
+
+
+                    </LinearLayout>
+
+                    <View style="@style/Divider"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_weight="1"
+                            android:text="Meaning"
+                            android:layout_gravity="center_horizontal"/>
+
+                        <TextView
+                            android:id="@+id/DetailedMeaning"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="24sp"
+                            android:textAlignment="center"
+                            android:layout_weight="1"
+                            android:text="Dog"
+                            android:layout_gravity="center_horizontal"/>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <View style="@style/Divider"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_weight="1"
+                            android:text="Kunyomi" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_weight="1"
+                            android:text="Onyomi" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/Kunyomi"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="24sp"
+                            android:singleLine="false"
+                            android:textAlignment="center"
+                            android:layout_weight="1"
+                            android:text="いぬ" />
+
+                        <TextView
+                            android:id="@+id/Onyomi"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="24sp"
+                            android:singleLine="false"
+                            android:textAlignment="center"
+                            android:layout_weight="1"
+                            android:text="ケン" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <View style="@style/Divider"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="100dp"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_weight="1"
+                            android:text="Synonyms" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="100dp"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_weight="1"
+                            android:text="Antonyms" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/Synonyms"
+                            android:layout_width="wrap_content"
+                            android:layout_height="100dp"
+                            android:textSize="24sp"
+                            android:textAlignment="center"
+                            android:layout_weight="1"
+                            android:text="syn" />
+
+                        <TextView
+                            android:id="@+id/Antonyms"
+                            android:layout_width="wrap_content"
+                            android:layout_height="100dp"
+                            android:textSize="24sp"
+                            android:textAlignment="center"
+                            android:layout_weight="1"
+                            android:text="ant" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <View style="@style/Divider"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="100dp"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_weight="1"
+                            android:text="JLPT Level" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="100dp"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_weight="1"
+                            android:text="Frequency" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/JLPTLevel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="100dp"
+                            android:textSize="24sp"
+                            android:textAlignment="center"
+                            android:layout_weight="1"
+                            android:text="JLPT N4" />
+
+                        <TextView
+                            android:id="@+id/Frequency"
+                            android:layout_width="wrap_content"
+                            android:layout_height="100dp"
+                            android:textSize="24dp"
+                            android:textAlignment="center"
+                            android:layout_weight="1"
+                            android:text="Very Common" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/DetailedEntryFab"
+            android:onClick="addDetailedEntryToDeck"
+            android:layout_width="wrap_content"
+            android:scaleType="center"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:src="@drawable/ic_add_black_24dp"
+            android:layout_margin="16dp" />
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+
+
+</LinearLayout>

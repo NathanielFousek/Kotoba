@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "563866975237",
+    "firebase_url": "https://kotoba-dbf77.firebaseio.com",
+    "project_id": "kotoba-dbf77",
+    "storage_bucket": "kotoba-dbf77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563866975237:android:7fbff20c4d3c4c7e",
+        "android_client_info": {
+          "package_name": "ndf333.nathaniel.kotoba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563866975237-f79odkvofdahqppfe83u4n6bt06nhh6i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ndf333.nathaniel.kotoba",
+            "certificate_hash": "643d386ec9d35f547dad40f7c63eb329d7ab2564"
+          }
+        },
+        {
+          "client_id": "563866975237-66v0i88v001o8r8ucmg2rh1h8vrnoleb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnf8cGCyLGTXksUbr1vo0JtzCO-4X6aS4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563866975237-66v0i88v001o8r8ucmg2rh1h8vrnoleb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
